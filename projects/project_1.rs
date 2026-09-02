@@ -4,10 +4,10 @@ fn main(){
 	let t:f64 = 5.0;
 
 	//amount 
-	let a = p * (1.0 + (r / 100)) * t;
+	let a = p * (1.0 + (r / 100.0)) * t;
 
 	//Compound interest
-	let C = a - p;
+	let c = a - p;
 
-	println!("The Compound interest is {}", C);
+	println!("The Compound interest is {}", c);
 }
