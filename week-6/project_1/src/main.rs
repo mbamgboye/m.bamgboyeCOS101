@@ -23,7 +23,7 @@ fn main() {
     // Parse quantity to a floating number for math operations
     let quantity: f32 = qty_input.trim().parse().expect("Please enter a valid number");
 
-    let mut price: f32 = 0.0;
+    let price: f32 ;
 
     // A decision on the letter
     if food_type == "P" {
